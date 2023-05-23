@@ -1,0 +1,89 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="connect">
+   
+    <img id="internet" src="Images/internet.png" alt=""/>
+    <p id="warn">Please Check Your Internet Connection and Try Again.</p></div>
+  <div id="loading">
+    <img src="Images/sun.png" alt="" id="loadsun">
+    <p id="wait">Please Wait...</p>
+  </div>
+  <div id="mainbody">
+    <div id="weatherdetails">
+      <div id="upperportion">
+      <input  placeholder="Enter country or city"value=""id="nameofplace"></input>
+      <img src="Images/next.png" alt="" id="next">
+      </div>
+      <div id="description">
+        <p id="shortdescription"></p>
+        <img id="icon">
+      </div>
+      <p id="temperature">
+      </p>
+      <p id="feelslike">Feels:</p>
+      <div id="infos">
+        <p class="shortinfo" id="humidity"></p>
+        <p class="shortinfo" id="windspeed"></p>
+      </div>
+      <div id="prediction">
+        Weather Forecast For Seven Days
+        </div>
+      <div id="forecast">
+        <div id="present" class="box">
+          <p class="hours">Today</p>
+          <img id="currenticon" class="smallicons">
+        </div>
+        <div class="box" id="hour1">
+          <p class="hours">Tomorrow</p><img src="" alt="" id="fhi" class="smallicons">
+        </div>
+        <div id="hour2" class="box">
+          <p id="sday" class="hours"></p>
+          <img src="" alt="" id="shi" class="smallicons">
+        </div>
+        <div id="hour3" class="box">
+          <p id="tday" class="hours"></p>
+          <img src="" alt="" id="thi" class="smallicons">
+        </div>
+        <div id="hour4" class="box">
+          <p class="hours" id="foday"></p><img src="" alt="" id="fohi" class="smallicons">
+        </div>
+        <div id="hour5" class="box">
+          <p id="fiday" class="hours"></p><img src="" alt="" id="fihi" class="smallicons">
+        </div>
+        <div id="hour6" class="box">
+          <p id="siday" class="hours"></p><img src="" alt="" id="sihi" class="smallicons">
+        </div>
+</div></div>
+<div id="others">
+  <p id="othertext">
+    Other Indexes
+  </p>
+  <div id="parentofextras">
+  <p id="time" class="extras"></p>
+  <p id="air" class="extras"></p>
+  <p id="sunrise" class="extras">
+ 
+  </p>
+  <p id="sunset" class="extras"></p>
+  <p id="longitude" class="extras"></p>
+  <p id="latitude" class="extras"></p>
+  <p id="moon" class="extras"></p>
+  
+ </div>
+</div>
+      </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
